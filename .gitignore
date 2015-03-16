@@ -6,3 +6,5 @@ Temp/*
 *.csproj
 ProjectSettings/*
 ProjectSettings/ProjectSettings.asset
+
+*.userprefs

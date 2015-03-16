@@ -19,7 +19,7 @@ public class LuaBehaviour : MonoBehaviour
     [System.NonSerialized]
     public bool usingFixedUpdate = false;
     protected bool isLuaReady = false;
-    private string script = "";
+    public string script = "";
 
     protected LuaTable table;
     protected List<MissionPack> MissionList = new List<MissionPack>();

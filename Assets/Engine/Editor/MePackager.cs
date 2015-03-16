@@ -250,7 +250,7 @@ public class MePackager
         target = BuildTarget.StandaloneWindows;
 #elif UNITY_IPHONE
 		Debug.Log ("build for ios");
-			target = BuildTarget.iPhone;
+			target = BuildTarget.iOS;
 #elif UNITY_ANDROID
 			Debug.Log ("build for android");
 			target = BuildTarget.Android;
